@@ -11,8 +11,8 @@ You will need an Amazon AWS (S3) account. You can get one [here](http://aws.amaz
 ``` rb
 store_with S3 do |s3|
   # AWS Credentials
-  s3.access_key_id     = "my_access_key_id"
-  s3.secret_access_key = "my_secret_access_key"
+  s3.aws_access_key_id = "my_access_key_id"
+  s3.aws_secret_access_keya = "my_secret_access_key"
   # Or, to use a IAM Profile:
   # s3.use_iam_profile = true
 
